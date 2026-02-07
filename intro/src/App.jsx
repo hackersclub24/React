@@ -106,6 +106,24 @@ function App() {
         <div className="circle"></div>
         <div className="rectangle"></div>
       </div>
+      <div className="purple new">
+        <div className="what">
+          <h2>What I Do.</h2>
+          <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus . Phasellus sed efficitur dolor, et ultricies sapien.</p>
+        </div>
+        <div className="interior">
+          <h4>01. Interior</h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div className="design">
+          <h4>02.  Design</h4>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+        <div className="fur">
+          <h4>03. Furniture</h4>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+      </div>
     </>
   );
 }
