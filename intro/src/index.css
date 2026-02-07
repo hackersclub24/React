@@ -268,7 +268,7 @@ nav {
   margin-left: 200px;
 }
 .text {
-  z-index: 3 ;
+  z-index: 3;
   padding-top: 40px;
   position: absolute;
   transform: translateY(40%);
@@ -279,6 +279,8 @@ nav {
   background-color: white;
   padding-right: 30px;
   padding-left: 30px;
+  /* box-shadow: 5px 5px #d6a125 5px; */
+  box-shadow: 15px 15px 15px #52514d ;
 }
 .text h2 {
   font-size: 3rem;
@@ -314,7 +316,7 @@ nav {
   transform: none;
   text-decoration: none;
 }
-.circle{
+.circle {
   background-color: #f2f2f2;
   height: 250px;
   position: absolute;
@@ -323,7 +325,7 @@ nav {
   right: 20%;
   border-radius: 50%;
 }
-.rectangle{
+.rectangle {
   position: absolute;
   top: 64%;
   right: 20%;
@@ -332,6 +334,6 @@ nav {
   background-color: #f8d788;
   /* z-index: 0; */
 }
-.third .sofa{
+.third .sofa {
   z-index: 2;
 }
