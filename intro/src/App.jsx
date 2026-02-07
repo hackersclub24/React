@@ -81,13 +81,29 @@ function App() {
         </div>
         <div className="contactUs ">
           <h3>Contact Us Today!</h3>
-          <h6>Call us today 777 000 0000 or <a href="">Email Us</a></h6>
+          <h6>
+            Call us today 777 000 0000 or <a href="">Email Us</a>
+          </h6>
         </div>
         <div className="pup">
           <a href="">BOOK A CONSULTATION</a>
         </div>
       </div>
       <div className="third">
+        <div className="sofa">
+          <img src="/images/pillow.webp" alt="none" />
+        </div>
+        <div className="text">
+          <h2>Vibrant Patterns</h2>
+          <p>
+            Elit ut aliquam purus sit amet luctus venenatis. Ridiculus mus
+            mauris vitae ultricies leo integer malesuada. Massa enim nec dui
+            nunc mattis enim. Sagittis vitae et leo duis ut. Lacus suspendisse
+            faucibus interdum.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+        <div className="circle"></div>
       </div>
     </>
   );
