@@ -104,6 +104,7 @@ function App() {
           <a href="">Learn More</a>
         </div>
         <div className="circle"></div>
+        <div className="rectangle"></div>
       </div>
     </>
   );

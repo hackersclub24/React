@@ -260,13 +260,15 @@ nav {
   z-index: 1;
 } */
 .sofa img {
+  position: relative;
+  z-index: 2;
   height: 631px;
   width: 544px;
   margin-top: 100px;
   margin-left: 200px;
 }
 .text {
-  z-index: 1;
+  z-index: 3 ;
   padding-top: 40px;
   position: absolute;
   transform: translateY(40%);
@@ -320,4 +322,16 @@ nav {
   top: 15%;
   right: 20%;
   border-radius: 50%;
+}
+.rectangle{
+  position: absolute;
+  top: 64%;
+  right: 20%;
+  height: 270px;
+  width: 700px;
+  background-color: #f8d788;
+  /* z-index: 0; */
+}
+.third .sofa{
+  z-index: 2;
 }
