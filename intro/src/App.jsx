@@ -154,13 +154,46 @@ function App() {
         <div className="fpup purple">
           <h2>Modern Furniture</h2>
           <div className="frow">
-            <div><img src="/images/pillow1.jpg" alt="" /></div>
-            <div><img src="/images/pillow2.jpg" alt="" /></div>
-            <div><img src="/images/pillow3.jpg" alt="" /></div>
+            <div>
+              <img src="/images/pillow1.jpg" alt="" />
+              <p>Click again or double click to start editing the text.</p>
+              <h6>$ 25</h6>
+            </div>
+            <div>
+              <img src="/images/pillow2.jpg" alt="" />
+              <p>Click again or double click to start editing the text.</p>
+              <h6>$ 25</h6>
+            </div>
+            <div>
+              <img src="/images/pillow3.jpg" alt="" />
+              <p>Click again or double click to start editing the text.</p>
+              <h6>$ 25</h6>
+            </div>
           </div>
-          <div className="srow"></div>
+          <div className="srow frow">
+            <div>
+              <img src="/images/pillow4.jpg" alt="" />
+              <p>Click again or double click to start editing the text.</p>
+              <h6>$ 25</h6>
+            </div>
+            <div>
+              <img src="/images/pillow5.jpg" alt="" />
+              <p>Click again or double click to start editing the text.</p>
+              <h6>$ 25</h6>
+            </div>
+            <div>
+              <img src="/images/pillow6.jpg" alt="" />
+              <p>Click again or double click to start editing the text.</p>
+              <h6>$ 25</h6>
+            </div>
+          </div>
         </div>
       </section>
+      <div className="five">
+        <img src="/images/dfdfdf.jpg" alt="none" />
+        <div className="rectangle newr"></div>
+        <div className="text ntext"></div>
+      </div>
     </>
   );
 }

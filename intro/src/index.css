@@ -535,31 +535,79 @@ nav {
   border-radius: 11px;
   /* margin-top: 100px; */
 }
-.fpup{
-display: flex;
-gap: 50px;
-flex-direction: column;
-/* flex-wrap: wrap; */
-/* justify-content: center; */
-
+.fpup {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  height: auto;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
 }
-.fpup > h2{
+.fpup > h2 {
   color: rgb(244, 184, 42);
-  font-family: Montserrat ;
+  font-family: Montserrat;
   font-size: 48px;
   line-height: 53px;
   font-weight: 700;
 }
-.frow >div >img{
-  height: 180px;
-  width: 180px;
+.frow > div > img {
+  height: 200px;
+  width: 200px;
 }
-.frow >div{
-  /* display: flex;
+.frow > div {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  gap: 20px;
 }
-.frow{
+.frow {
   display: flex;
   gap: 50px;
+  color: white;
+}
+.frow > div > p {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+.frow > div > h6 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgb(244, 184, 42);
+}
+.five{
+  height: 100svh;
+  position: relative;
+  background-color: rgb(244, 184, 42);
+}
+.five > img{
+  height: 550px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: 2;
+}
+.newr{
+  height: 250px;
+}
+.ntext{
+  left: 18%;
+  top:50%;
+  height: 250px;
 }
