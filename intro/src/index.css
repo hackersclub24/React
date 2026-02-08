@@ -37,6 +37,7 @@ nav {
   /* object-fit:contain; */
   transform: scale(1);
   background-image: url(/images/background.jpg);
+  background-size: 110%;
 }
 .logo h1 {
   font-family:
@@ -120,17 +121,20 @@ nav {
 }
 .content {
   width: 65%;
-  height: 100svh;
+  min-height: 100svh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: aqua; */
   /* gap: 20px; */
   flex-wrap: wrap;
+  gap: 5px;
 }
-.content div {
-  height: 400px;
-  width: 400px;
+.content > div {
+  height: 50%;
+  width: auto;
+  aspect-ratio: 1/1;
   /* border: 2px solid black; */
   /* background-color: red; */
   /* display: flex;
@@ -139,6 +143,7 @@ nav {
   gap: 24px;
   align-content: center;
   align-items: center; */
+  /* background-color: red; */
 }
 .women {
   /* background-color: aqua; */
@@ -166,21 +171,19 @@ nav {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  padding-top: 40px;
   color: white;
-  padding-left: 40px;
   font-weight: 700;
-  line-height: 72px;
-  size: 60px;
-  font-size: 3.75rem;
+  font-size: 60px;
+  line-height: 60px;
+  /* background-color: pink; */
+  text-align: center;
 }
 .nextbox p {
   color: white;
   font-size: 1.125rem;
   line-height: 1.8rem;
   font-style: italic;
-  padding-top: 40px;
-  padding-left: 40px;
+  text-align: justify;
   font-family:
     system-ui,
     -apple-system,
@@ -193,11 +196,22 @@ nav {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  /* background-color: pink; */
 }
 .nextbox {
   /* border: 2px solid black ; */
   height: 10px;
   width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+
+  &:nth-child(3),
+  &:nth-child(4) {
+    justify-content: flex-start;
+  }
 }
 .purple {
   height: 300px;
@@ -342,6 +356,7 @@ nav {
 }
 .new {
   /* margin-top: 20px; */
+  position: relative;
 }
 .what h2 {
   color: rgb(244, 184, 42);
@@ -430,18 +445,18 @@ nav {
   color: white;
   line-height: 26px;
 }
-.fur{
+.fur {
   width: 300px;
   /* border: 2px solid black; */
 }
-.design h4{
+.design h4 {
   font-size: 24px;
   line-height: 29px;
   font-weight: 700;
   color: rgb(244, 184, 42);
 }
-.design p{
-    font-family:
+.design p {
+  font-family:
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
@@ -458,7 +473,66 @@ nav {
   color: white;
   line-height: 26px;
 }
-.design{
+.design {
   width: 300px;
   /* border:2px solid black; */
 }
+.fourth {
+  height: 100svh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/fourth.jpg);
+  /* display: flex; */
+  position: relative;
+  /* background-size: cover;   */
+  /* background-size: 100% 60%; */
+  /* background-color: rgb(244, 184, 42); */
+}
+.fcontainer {
+  width: 400px;
+  height: 450px;
+  /* border: 2px solid black; */
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.fcontainer h2 {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  /* color: aqua; */
+}
+.fcontainer > p {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 4cqw;
+}
+.fcontainer > a {
+  padding: 18px 54px;
+  text-decoration: none;
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-color: white;
+  color: white;
+  /* margin-left: 20px; */
+  border-radius: 11px;
+  /* margin-top: 100px; */
+}
+

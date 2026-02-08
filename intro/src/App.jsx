@@ -109,21 +109,47 @@ function App() {
       <div className="purple new">
         <div className="what">
           <h2>What I Do.</h2>
-          <p>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus . Phasellus sed efficitur dolor, et ultricies sapien.</p>
+          <p>
+            Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus .
+            Phasellus sed efficitur dolor, et ultricies sapien.
+          </p>
         </div>
         <div className="interior">
           <h4>01. Interior</h4>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </p>
         </div>
         <div className="design">
-          <h4>02.  Design</h4>
-          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+          <h4>02. Design</h4>
+          <p>
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text.
+          </p>
         </div>
         <div className="fur">
           <h4>03. Furniture</h4>
-          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+          <p>
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text.
+          </p>
         </div>
       </div>
+      <section className="fourth">
+        <div className="fcontainer">
+          <h2>Construction and renovation projects</h2>
+          <p>
+            Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            nullam nunc justo sagittis suscipit ultrices. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+      </section>
     </>
   );
 }
