@@ -206,8 +206,31 @@ function App() {
           <h2>Contact Us</h2>
           <h5>Any questions or remarks? Just write us a message!</h5>
           <div className="text ltext">
-            <div>
+            <div className="fpart">
               <img src="/images/xccx.jpg" alt="" />
+              <div>
+                <h6>Sydney</h6>
+                <p>45 Pirrama Rd, Pyrmont NSW 2022</p>
+              </div>
+              <div>
+                <h6>Melbourne</h6>
+                <p>163 Collins St, Melbourne VIC 3000</p>
+              </div>
+              <div>
+                <h6>Los Angeles</h6>
+                <p>340 Main St, Venice CA 902291, USA</p>
+              </div>
+            </div>
+            <div className="contact50">
+              <h3>Get in Touch</h3>
+              <p>
+                Have an inquiry or some feedbak for us? Fill out the form below
+                to contact our team.
+              </p>
+              <div><h6>Name</h6><input className = "input-box" type="text" placeholder="Enter your name" /></div>
+              <div><h6>Email</h6><input className = "input-box"type="email" name="Email" placeholder="Enter your email address" id="" /></div>
+              <div><h6>How can we help </h6><textarea  className="lastin" name="" id=""></textarea></div>
+              <a href=""><h6>SUBMIT</h6></a>
             </div>
           </div>
         </div>
