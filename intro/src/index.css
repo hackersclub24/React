@@ -623,7 +623,7 @@ nav {
 }
 .lpup{
   /* height: fit-content; */
-  height: 100svh;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -646,11 +646,18 @@ nav {
 
 }
 .ltext{
+  margin-top: 50px;
+  top :0%;
+  
+  transform: translateY(20%);
   box-shadow: none;
-  width: 1000px;
+  width: 1200px;
   /* top: 0%; */
-  left: 18%;
-  /* height: 500px; */
+  left: 12%;
+  height: 700px;
   /* justify-content: center; */
   /* transform: translateY(50%); */
+}
+.ltext > div>img{
+  height: 350px;
 }
