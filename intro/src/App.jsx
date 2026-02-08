@@ -150,6 +150,17 @@ function App() {
           <a href="">Learn More</a>
         </div>
       </section>
+      <section>
+        <div className="fpup purple">
+          <h2>Modern Furniture</h2>
+          <div className="frow">
+            <div><img src="/images/pillow1.jpg" alt="" /></div>
+            <div><img src="/images/pillow2.jpg" alt="" /></div>
+            <div><img src="/images/pillow3.jpg" alt="" /></div>
+          </div>
+          <div className="srow"></div>
+        </div>
+      </section>
     </>
   );
 }
