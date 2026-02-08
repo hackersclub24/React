@@ -591,23 +591,66 @@ nav {
   font-size: 24px;
   color: rgb(244, 184, 42);
 }
-.five{
+.five {
   height: 100svh;
   position: relative;
   background-color: rgb(244, 184, 42);
 }
-.five > img{
+.five > img {
   height: 550px;
   position: absolute;
-  top: 15%;
+  top: 8%;
   left: 15%;
   z-index: 2;
 }
-.newr{
+.newr {
   height: 250px;
 }
-.ntext{
+.ntext {
   left: 18%;
-  top:50%;
-  height: 250px;
+  top: 38%;
+  height: 300px;
+}
+.ntext > h3 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  /* line-height: 53px; */
+}
+.newr{
+  top: 50%;
+  height: 300px;
+}
+.lpup{
+  /* height: fit-content; */
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+}
+.lpup > h2{
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+}
+.lpup > h5{
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+
+}
+.ltext{
+  box-shadow: none;
+  width: 1000px;
+  /* top: 0%; */
+  left: 18%;
+  /* height: 500px; */
+  /* justify-content: center; */
+  /* transform: translateY(50%); */
 }

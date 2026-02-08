@@ -192,8 +192,19 @@ function App() {
       <div className="five">
         <img src="/images/dfdfdf.jpg" alt="none" />
         <div className="rectangle newr"></div>
-        <div className="text ntext"></div>
+        <div className="text ntext">
+          <h3>House Planning</h3>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+          <a href="">LEARN MORE</a>
+        </div>
       </div>
+      <section>
+        <div className="purple lpup">
+          <h2>Contact Us</h2>
+          <h5>Any questions or remarks? Just write us a message!</h5>
+          <div className="text ltext"></div>
+        </div>
+      </section>
     </>
   );
 }
