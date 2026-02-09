@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 300px;
+  width: 300px;
+  background-color: #e3ded1;
+  /* box-shadow: 10px 10px 10px ; */
+  border: solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 10px;
+}
+.main > input {
+  border: solid orange;
+  border-radius: 5px;
+  height: 35px;
+  /* width: 30px; */
+}
+.main > a {
+  height: fit-content;
+  text-decoration: none;
+  background-color: orange  ;
+  padding: 8px 14px;
+  color: white;
+}
+.second{
+  transform: translateY(-20%);
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100% ;
+  align-items: center;
+}
+.second >div{
+  /* gap: 8px;
+  display: flex; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 80%;
+  background-color: #fdc05d;
+}
