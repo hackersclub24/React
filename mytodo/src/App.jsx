@@ -37,7 +37,6 @@ function App() {
     ]);
   }
   function updatestatus(id) {
-    
     let temp = todos.slice();
     for (let i = 0; i < temp.length; i++) {
       if (temp[i].id == id) {
@@ -57,6 +56,12 @@ function App() {
     const tempTodos = todos.filter((item) => item.id != id);
     setTodos(tempTodos);
   }
+  function editodo(idx, title) {
+    const prt = prompt("Enter a title", title);
+    const tempTodos = todos.slice();
+    tempTodos[idx].title = prt;
+    setTodos(tempTodos);
+  }
   return (
     <>
       <div className="main">
@@ -74,7 +79,7 @@ function App() {
           <a onClick={addtodo}>Add</a>
         </div>
         {/* {console.log(todos)} */}
-        {todos.map((item) => {
+        {todos.map((item, idx) => {
           return (
             <div className="work">
               <div>
@@ -83,7 +88,15 @@ function App() {
                   onClick={() => updatestatus(item.id)}
                   checked={item.status}
                 />
-                <span key="ti" className={selectedId === item.id ? "active" : ""}>{item.title}</span>
+                <span
+                  key="ti"
+                  className={selectedId === item.id ? "active" : ""}
+                >
+                  {item.title}
+                </span>
+                <a className="edit" onClick={()=>editodo(idx,item.title)}>
+                  <img src="/images/edit.svg" alt="" height={24} />
+                </a>
                 <a onClick={() => deltodo(item.id)}>
                   <img src="/images/cross.svg" alt="" height={24} />
                 </a>
