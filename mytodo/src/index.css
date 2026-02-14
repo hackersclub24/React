@@ -1,0 +1,70 @@
+body{
+ background: linear-gradient(45deg, #371b68, #421364);
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ height: 100svh;
+}
+.main{
+  border-radius: 11px;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+}
+.heading>h1{
+  /* display: inline; */
+  color: #002862;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  /* padding: 15px 15px;  */
+  /* margin-top: 30px; */
+}
+.in{
+  padding-left: 30px;
+  display: flex;
+  gap: 10px;
+}
+.in > input{
+  padding: 10px 10px;
+  border-radius: 11px;
+  border: none;
+  background-color: #edeef0;
+  width:70% ;
+}
+.in >a{
+  /* border: 2px solid black; */
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 11px;
+  width: 40px;
+  background-color: #ff5845;
+}
+
+.work > div{
+  position: relative;
+  width: 470px;
+  gap: 30px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 30px 20px;
+  padding: 10px 10px;
+  /* background-color: #edeef0; */
+  /* border: 2px solid black; */
+
+}
+.work > div > a{
+  position: absolute;
+  right: 0%;
+  padding-right:10px ;
+}
+.active{
+  text-decoration:line-through  ;
+}
