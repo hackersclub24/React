@@ -72,7 +72,10 @@ function App() {
         </div>
       )}
       <div className="setting">
-          
+          <div className="color">
+            <div className="red box"></div>
+            <div className="blue box"></div>
+          </div>
       </div>
     </>
   );
