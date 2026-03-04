@@ -89,6 +89,7 @@ function App() {
             </span>
           </div>
         </nav>
+        <span className="text-white absolute text-6xl font-serif left-18 top-50 font-thin tracking-wide"> <h1>Our Independence <br/> Makes the Difference</h1></span>
       </div>
     </>
   );
