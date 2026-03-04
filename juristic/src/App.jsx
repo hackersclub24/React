@@ -74,11 +74,11 @@ function App() {
               <img src="/images/down-arrow.svg" alt="" className="w-3 h-3" />
             </span>
           </div>
-          <div className="flex  w-1/6 p-4 gap-5">
-            <span>
+          <div className="flex  w-1/6 p-4 gap-5 ">
+            <span className="cursor-pointer">
               <img src="/images/search.svg" alt="" className="h-7 w-7" />
             </span>
-            <span className="relative">
+            <span className="relative cursor-pointer">
               <img src="/images/cart.svg" alt="" className=" h-7 w-7" />
               <span
                 className="absolute -top-1 -right-1 bg-[#c9b38c] text-white text-xs 
@@ -89,7 +89,23 @@ function App() {
             </span>
           </div>
         </nav>
-        <span className="text-white absolute text-6xl font-serif left-18 top-50 font-thin tracking-wide"> <h1>Our Independence <br/> Makes the Difference</h1></span>
+        <span className="text-white absolute text-6xl robo  left-30 top-50 ">
+          {" "}
+          <h1>
+            Our Independence <br /> Makes the Difference
+          </h1>
+        </span>
+        <span className="text-white absolute text-2xl font-serif left-30 top-90 font-thin muli tracking-wide">
+          <h1>Nationally Established. Internationally Recognized</h1>
+        </span>
+        <button className="absolute text-white border p-4 bg-[#c9b38c] cursor-pointer top-110 left-30">
+          Free Consultation
+        </button>
+        <button
+          className="w-16 h-16 rounded-full border border-gray-300 
+                flex items-center justify-center left-8
+                cursor-pointer hover:bg-white/10 transition absolute top-1/2 -translate-y-1/2"
+        > <img src="images/left-arrow.svg" alt=""  /></button>
       </div>
     </>
   );
