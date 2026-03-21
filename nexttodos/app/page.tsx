@@ -1,6 +1,9 @@
 "use client";
 // import Image from "next/image";
 // import { title } from "process";
+import { X, Trash, Plus, User } from "lucide-react";
+import { todo } from "node:test";
+// import { todo } from "node:test";
 import { useState } from "react";
 
 export default function Home() {
@@ -17,8 +20,13 @@ export default function Home() {
         id: Date.now(),
       },
     ]);
-    setInput("")
+    setInput("");
   }
+  function deleteTodo(id:number) {
+    const tempTodos = todos.filter((item) => item.id != id);
+    setTodos(tempTodos);
+  }
+
   return (
     <>
       <div>
@@ -36,8 +44,15 @@ export default function Home() {
         </div>
         {todos.map((item, idx) => {
           return (
-            <p key={idx}>{item.title}</p>
-          )
+            <div key={item.id}>
+              <p>{item.title}</p>
+              <span>
+                <X
+                  onClick={() => {deleteTodo(item.id) }}
+                />
+              </span>
+            </div>
+          );
         })}
       </div>
     </>
