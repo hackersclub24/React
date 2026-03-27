@@ -3,6 +3,7 @@
 // import { title } from "process";
 import { X, Trash, Plus, User, Edit } from "lucide-react";
 import { todo } from "node:test";
+import { title } from "process";
 // import { todo } from "node:test";
 import { useState } from "react";
 
@@ -26,8 +27,8 @@ export default function Home() {
     const tempTodos = todos.filter((item) => item.id != id);
     setTodos(tempTodos);
   }
-function updateTodo(id: number) {
-  const temp = prompt("Enter a title");
+function updateTodo(id: number,title:string) {
+  const temp = prompt("Enter a title",title);
 
   setTodos(
     todos.map((item) => {
@@ -66,7 +67,7 @@ function updateTodo(id: number) {
               >
                 <span>{item.title}</span>
                 <button
-                  onClick={() => updateTodo(item.id)}
+                  onClick={() => updateTodo(item.id, item.title)}
                   className="text-blue-500  hover:text-blue-700 focus:outline-none"
                 >
                   <Edit />
